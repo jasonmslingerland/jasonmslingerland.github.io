@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Ducati Monster Rebuild</h1>
+  <p>I purchased a dropped 2009 Ducati Monster 696 with 2500 miles and with a clean title. There was a large hole in the crankcase that appeared to have damaged the case itself and no internal parts.</p>
+    <p>Upon disassembly, I found that I was correct that the rest of internals were healthy aside from the crankcase. I also discovered all of the motor mounts cracked and needed welding as well.</p>
+    <p>I welded 6061 aluminum plate shaped by hand to the cast aluminum crankcase to cover the hole in the crankcase. I turned round bar 6061 to the diameter of the motor mounts and drilled the stock to the motor mount hardware size. I then shaped the mounts with an air tool. </p>
+    <p>I reassembled the motorcycle and it started up the first try.</p>
+    <p>The welds were only slightly porous, Only leaking oil when it has time to pool at the bottom of the crankcase.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="01-Outsidedamage.JPG" style="width:100%">
+    <img src="05-Healthypiston2.JPG" style="width:100%">
+    <img src="09-Disassembly.JPG" style="width:100%">
+    <img src="13-Motormount1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="02-Cleanedupoutsidedamage.JPG" style="width:100%">
+    <img src="06-Healthyvalves.JPG" style="width:100%">
+    <img src="10-Cleaningbeforewelds.JPG" style="width:100%">
+    <img src="14-Motormount2.jpg" style="width:100%">
+    <img src="18-Outputreassembly.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="03-Disassembly.JPG" style="width:100%">
+    <img src="07-Insidedamage.JPG" style="width:100%">
+    <img src="11-Totalcleaneddisassembly.jpg" style="width:100%">
+    <img src="15-Patchedhole1.jpg" style="width:100%">
+    <img src="19-Crankshaftholdingstraps.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="04-Healthypiston1.JPG" style="width:100%">
+    <img src="08-Disassembly.JPG" style="width:100%">
+    <img src="12-Kickstandhole.jpg" style="width:100%">
+    <img src="16-Patchedhole2.jpg" style="width:100%">
+    <video src="17-Reassembeledtransmission.mp4" type="video/mp4" style="width:100%" controls>
+  </div>
+</div>
+
+</body>
+</html>
