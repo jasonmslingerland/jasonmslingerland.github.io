@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>RPI Formula SAE Upright deisgn</h1>
+
+
+<p>Upright design began with bearing selection</p>
+<ul>
+<li>Bearing loading was created by using the mass of a 650lb car and driver and a 2g. This allowed for unknown forces and anomalies when driving.</li>
+<li>Going through 150km cycle length, size and cost, three bearings were chosen as potential options.</li>
+<li>6813 sealed bearings were chosen for the rear because they were big enough to have internally mounted CV joints.</li>
+<li>6908 sealed bearings were selected for their lower moment of inertia.</li>
+</ul>
+</p>
+<p>Designing the geometry</p>
+<ul>
+<li>Suspension geometries were selected from Optimum K, a program that optimizes geometry points based on certain goals.</li>
+<li>All four uprights were designed around the origin of the car, allowing for static camber of -.3 degrees to be designed in</li>
+<li>Inspiration of shape came from the team’s manufacturing capabilities. If the parts could not be made by a sponsor with CNC capabilities, the parts could be made in house on a 3-axis mill with a rotary table.</li>
+<li>A 0.0005" press fit after anodizing was achieved for the bearing surfaces</li>
+</ul>
+<p>Manufacturing</p>
+<ul>
+<li>Parts were manufactured by PVA, Precision Valve and Automation. A hard, black anodize was also applied by the company after machining.</li>
+<li>I did not do any of the coding myself for the parts or tooling required.</li>
+</ul>
+</p>
+
+
+
+    <p>Download the Solidworks files of <a href=RM21-0017.SLDPRT><strong>front </strong></a> and <a href=RM21-0130.SLDPRT><strong>rear</strong></a> uprights</p>
+    <p><a href=uprightloading.xlsx><strong>Loading calculations</strong></a> and the <a href=UprightDesignReview.pdf><strong> design review slides </strong></a> are also available.
+</div>
+
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="IMG_0285.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="IMG_0286.JPG" style="width:100%">
+    </div>
+  <div class="column">
+    <a href=uprightloading.xlsx>
+    <img src="uprightLoading.png" style="width:100%">
+  </a>
+  </div>
+  <div class="column">
+    <a href=UprightDesignReview.pdf>
+      <img src="UprightDesignReview.jpg" style="width:100%">
+    </a>
+</div>
+
+</body>
+</html>

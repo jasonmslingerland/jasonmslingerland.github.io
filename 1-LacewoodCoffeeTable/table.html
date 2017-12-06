@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Lacewood Coffee Table</h1>
+  <p>Instead of going to IKEA, I knew I could make a better looking and stronger coffee table myself.</p>
+    <p>I purchased lacewood from the local wood shop and jointed it with dowels and glue.</p>
+    <p>After the glue dried I planed the tabletop and polyurethane it to show off the intricate grain.</p>
+    <p>I machined and welded the aluminum legs in the local makerspace.</p>
+    <p>Knowing the leg assemblies would shrink after welding, I chose to drill the bottom holes in the aluminum plate after welding. I located the holes off of a 3d printed jig using the countersinks on the top plate.</p>
+    <p>After the bottom holes were drilled, I made sure the width tabletop fit in between the legs by using a jointer until the tabletop slid in with minimal effort. </p>
+    <p>I then drilled through the tabletop using another 3d printed jig that located the drilling axis off the existing holes and ensured consistent table stick out from the legs.</p>
+    <p>The Onshape document containing the table assembly and drilling jigs is located <a href=https://cad.onshape.com/documents/26b3d89134b05bca1b35e960/w/68b8e7ec6b531558c0bef0b9/e/57a9d79d70d08de06cf26afa> <strong>here</strong> </a></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="01-Renderafterdesign.jpg" style="width:100%">
+    <img src="05-Trimmedandpolyed.jpg" style="width:100%">
+    <img src="09-Aluminumwelds.jpg" style="width:100%">
+    <img src="13-Wooddrillingjig.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="02-Doweledandglued.jpg" style="width:100%">
+    <img src="06-Millsetup.JPG" style="width:100%">
+    <img src="10-Standinglegs.jpg" style="width:100%">
+    <img src="14-Fitup1.jpg" style="width:100%">
+    </div>
+  <div class="column">
+    <img src="03-Dried.JPG" style="width:100%">
+    <img src="07-JointSF.jpg" style="width:100%">
+    <img src="11-Designingdrillingjigs.PNG" style="width:100%">
+    <img src="15-Fitup2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="04-Planed.jpg" style="width:100%">
+    <img src="08-Weldingsetup.jpg" style="width:100%">
+    <img src="12-Aluminumdrillingjig.jpg" style="width:100%">
+    <img src="16-Final1.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
