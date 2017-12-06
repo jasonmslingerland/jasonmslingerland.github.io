@@ -1,0 +1,11 @@
+RPI FSAE 2013 Intake. 
+
+The initial design goal was to take advantage of the inertial supercharging effect of the Honda CBR 600 f4i at common RPMs. 
+
+The Helmholtz Residencies of the engine were obtained through an engine simulation in Ricardo Wave.
+
+Characteristic runner lengths were then found.
+
+All parts were optimized in Solidworks Flow Simulation and ANSYS Fluent. 
+
+Parts were sent to HARBEC to be printed out of PA2200, a fuel and heat resistant material.

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>RPI Formula SAE Intake deisgn</h1>
+
+<p>The initial design goal was to take advantage of the inertial supercharging effect of the Honda CBR 600 f4i at common RPMs. </p>
+<ul>
+<li>The Helmholtz Residencies of the engine were obtained through an engine simulation in Ricardo Wave.</li>
+  <li>Characteristic runner lengths were then found.</li>
+  <li>All parts were optimized in Solidworks Flow Simulation and ANSYS Fluent. </li>
+  <li>Parts were sent to HARBEC to be printed out of PA2200, a fuel and heat resistant material.</li>
+</ul>
+    <p><a href=https://cad.onshape.com/documents/d6e16f36ab4dc26e852762de/w/5aa91815c66064b1cc5a7af6/e/4093f1d54b3752428edfe034 target="_blank"><strong>Click here </strong></a>to view the assembly in Onshape</p>
+    <p>Download the Solidworks files of <a href=INTAKECAD.zip><strong>intake assembly </strong></a></p>
+</div>
+
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="Front.JPG" style="width:100%">
+    <img src="OutOfTheBox.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Side.JPG" style="width:100%">
+    </div>
+  <div class="column">
+    <img src="Wallrepair.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <a href=2013IntakeDrawings.pdf>
+      <img src="2013IntakeDrawings.jpg" style="width:100%">
+    </a>
+</div>
+
+</body>
+</html>
