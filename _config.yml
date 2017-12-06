@@ -12,9 +12,9 @@ email: jasonslingerland6@gmail.com
 facebook_username:
 twitter_username:
 github_username: jasonmslingerland
-address: 321 Dorchester Street
-  - line: Apartment 1
-  - line: Boston, MA 02140
+address: 321 Dorchester Street, Apartment 1, Boston, MA 02140
+  - line:
+  - line:
   # Feel free to add more lines here
 telephone: +1 (518)813-3432
 copyright:
