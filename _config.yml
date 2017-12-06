@@ -1,0 +1,24 @@
+# Site settings
+title: I like to get things done
+email: jasonslingerland6@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I am an engineer that likes getting things done.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: Jason Slingerland
+email: jasonslingerland6@gmail.com
+github_username: jasonslingerland
+address:
+  - line: 321 Dorchester Street, Apartment 1
+  - line: Boston, MA 02127
+  # Feel free to add more lines here
+telephone: +1 (518)813-3432
+copyright:
+
+# API settings
+google_api_key:
+
+# Build settings
+markdown: kramdown
