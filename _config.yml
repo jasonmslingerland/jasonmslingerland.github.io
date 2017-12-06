@@ -9,16 +9,18 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner: Jason Slingerland
 email: jasonslingerland6@gmail.com
-github_username: jasonslingerland
-address:
-  - line: 321 Dorchester Street, Apartment 1
-  - line: Boston, MA 02127
+facebook_username:
+twitter_username:
+github_username: jasonmslingerland
+address: 321 Dorchester Street
+  - line: Apartment 1
+  - line: Boston, MA 02140
   # Feel free to add more lines here
 telephone: +1 (518)813-3432
 copyright:
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyCo75LjkfmMsHFoPD9Bjdg9WHMEzTOJwA4
 
 # Build settings
 markdown: kramdown
