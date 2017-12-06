@@ -52,6 +52,7 @@ body {
     background-color: white;
     display: inline;
     padding: 0.5rem;
+    width: 506.8px;
     box-decoration-break: clone;
 }
 .text-vertical-right h3 {
