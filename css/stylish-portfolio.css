@@ -240,6 +240,20 @@ hr.small {
     -o-background-size: cover;
 }
 
+.callout-layer{
+  background-color: rgba(85, 85, 85, 0.34);
+}
+
+
+/* Headder */
+@media screen and (min-width: 600px){
+    .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+}
 /* Portfolio */
 
 .portfolio {
@@ -252,6 +266,15 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+.zoom {
+    transition: transform .1s; /* Animation */
+    /* margin: 0 auto; */
+}
+
+.zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .img-portfolio {
