@@ -11,9 +11,19 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner: Jason Slingerland
 email: jasonslingerland6@gmail.com
-facebook_username:
-twitter_username:
-github_username: jasonslingerland
+social_sites:
+  twitter: jekyllrb
+  github:  jekyll
+  #dribbble: jekyll
+  #facebook: jekyll
+  #flickr: jekyll
+  #instagram: jekyll
+  #linkedin: jekyll
+  #pinterest: jekyll
+  #youtube: jekyll
+  #googleplus: +jekyll
+
+rss: rss
 address: "321 Dorchester Street"
 line: "Apartment 1"
 line: Boston, MA 02127
