@@ -1,6 +1,6 @@
 # Site settings
 title: I like to get things done
-email: jasonslingerland6@gmail.com
+email: jasonmgainor@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,8 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: Jason Slingerland
-email: jasonslingerland6@gmail.com
+owner: Jason Gainor
+email: jasonmgainor@gmail.com
 social_sites:
   twitter: jekyllrb
   github:  jekyll
@@ -24,11 +24,10 @@ social_sites:
   #googleplus: +jekyll
 
 rss: rss
-address: "321 Dorchester Street"
-line: "Apartment 1"
-line: Boston, MA 02127
+address: "106 Westmoreland Ave"
+line: "Arlington, MA"
   # Feel free to add more lines here
-telephone: +1(518)813-3432
+telephone: +1(781)777-3140
 copyright:
 
 # API settings
